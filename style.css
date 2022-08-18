@@ -1,0 +1,416 @@
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica;
+	font-size: 15px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.drzac {
+	width: 100%;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+/* Meni */
+
+.drzac ul li {
+	display: inline;
+	padding: 0px 25px;
+}
+
+.drzac ul li a {
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.drzac ul li a:hover {
+	color: #808080;
+}
+
+/* SLAJDER */
+
+#slajder {
+	display: block;
+	height: auto;
+	max-width: 1440px;
+	position: relative;
+	transform: translateX(-50%);
+	width: 100%;
+	left: 50%;
+}
+
+#slajder img {
+	display: none;
+}
+
+#slajder .show {
+	display: block;
+}
+
+/* PROCITAJ VISE	 */
+
+.pasus {
+	width: 598px;
+	height: auto;
+	margin: 20px auto -5px;
+	position: relative;
+}
+
+.pasus h1 {
+	text-transform: uppercase;
+}
+
+.pasus p {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 20px auto;
+}
+
+.nestani {
+	display: none;
+}
+
+#prikazi {
+	font-size: 14px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	height: 25px;
+	width: 500px;
+	border-top: 1px solid #000000;
+}
+
+#obradujVolenuOsobu {
+	margin-top: 30px;
+}
+
+#obradujVolenuOsobu h2 {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+#obradujVolenuOsobu p {
+	font-size: 18px;
+	line-height: 22px;
+	margin: 20px auto;
+}
+
+#izaberitePoklon {
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1em 2em;
+	letter-spacing: .06em;
+	transition: background-color .2s ease;
+}
+
+#izaberitePoklon:hover {
+	background-color: #808080;
+}
+
+#video {
+	margin-bottom: 30px;
+}
+
+.futerPretplata {
+	border-top: 1px solid #808080;
+	padding-top: 40px;
+	position: relative;
+	width: 100%;
+}
+
+#otac {
+	box-sizing: border-box;
+	min-width: 960px;
+	margin: 0 auto;
+	max-width: 1240px;
+	padding-bottom: 20px;
+	width: calc(100% - 60px);
+}
+
+#pretplata {
+	float: left;
+	width: 50%;
+}
+
+#pretplataEmail {
+	float: right;
+	width: 50%;
+}
+
+.cistac {
+	clear: both;
+}
+
+#PretplatioSe {
+	box-sizing: border-box;
+	font-weight: 400px;
+	font-size: 12px;
+	height: 58px;
+	line-height: 18px;
+	letter-spacing: .4px;
+	margin-right: 0;
+	padding-left: 20px;
+	width: calc(100% - 162px);
+}
+
+.dugme {
+	background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-weight: 400px;
+    font-size: 12px;
+    height: 58px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding:0px;
+    width: 150px;
+	transition:background-color .2s ease;
+	cursor: pointer;
+}
+
+.dugme:hover {
+	background-color: #808080;
+}
+
+#pretplata h3 {
+	font-size: 2em;
+}
+
+#futer {
+	border-top: 1px solid #808080;
+	padding-top: 40px;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#napomena {
+	margin-top: 14px;
+}
+
+#napomena a {
+	font-weight: bold;
+	color: #000000
+}
+
+#napomena a:hover {
+	color: #808080;
+}
+
+/* PRODAVNICA  */
+
+#centralni {
+	width: 1240px;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#div-levo {
+	width: 280px;
+	float: left;
+}
+
+#div-levo h1 {
+	text-transform: uppercase;
+	font-size: 1.7em;
+}
+
+/*SELEKCIJA */
+
+#selekcija,
+#selekcija ul {
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+#selekcija ul li {
+	border-bottom: 1px solid #808080;
+}
+
+#selekcija li {
+	cursor: pointer;
+	font-size: 18px;
+	padding-top: 13px;
+}
+
+#selekcija li a {
+	padding-left: 10px;
+	color: #808080;
+}
+
+#selekcija li>ul>li {
+	cursor: auto;
+	padding: 0 14px;
+}
+
+#selekcija li>ul>li>a:hover {
+	color: #000000;
+}
+
+#div-desno {
+	width: 950px;
+	float: right;
+}
+
+.precice ul li {
+	display: inline;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #808080;
+}
+
+.precice {
+	height: 25px;
+	padding: 0 10px 0 10px;
+	line-height: 22px;
+}
+
+.precice ul li a {
+	margin: 110px;
+	padding: 5px;
+	letter-spacing: .06em;
+	color: #808080;
+	text-transform: uppercase;
+}
+
+.artikli {
+	width: 30%;
+	margin: 2px;
+	min-height: 220px;
+	padding: 10px;
+	font-weight: bold;
+	float: left;
+}
+
+.artikli p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #808080;
+	font-size: 17px;
+}
+
+.artikli img {
+	height: 180px;
+	margin: 15px 15px 42px;
+	width: 180px;
+}
+
+.korpa {
+	border: none;
+	background-color: #FFFFFF;
+	color: #808080;
+	cursor: pointer;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+/* REGISTRACIJA  */
+
+caption {
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+
+#registracija {
+	margin-left: 29%;
+	margin-top: 25px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+td {
+	padding-bottom: 25px;
+}
+
+input {
+	width: 200px;
+	height: 25px;
+}
+
+.ne {
+	width: 25px;
+}
+
+.liste {
+	width: 200px;
+	height: 25px;
+}
+
+#autorska {
+	width: 401px;
+	height: 472px;
+	padding-top: 25px;
+}
+/* ADMIN PANEL*/
+.dugmic {
+	background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-weight: 400px;
+    font-size: 13px;
+    height: 25px; 
+    letter-spacing: 1px;
+    padding:0px;
+    width: 100px;
+	transition:background-color .2s ease;
+	cursor: pointer;
+	
+}
+
+.dugmic:hover {
+	background-color: #808080;
+}
+.adminPanel{
+	padding-top: 25px;
+}
+#korisnikDodat
+{
+	color:#808080;
+	font-size:15px;
+	
+}
+/* KONTAKT*/
+#porukaKorisnika{
+	font-size:12px;
+	width:202px;
+	height: 120px;
+	min-width:202px;
+	min-height: 120px;
+	max-width:300px;
+	max-height:240px;
+}
+/* paginacija*/
+.paginacija
+{
+	padding-top: 30px;
+}
+.paginacija ul li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.paginacija ul li a {
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.paginacija ul li a:hover {
+	color: #808080;
+}
